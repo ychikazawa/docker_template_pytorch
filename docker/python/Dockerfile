@@ -1,4 +1,4 @@
-FROM pytorch:latest
+FROM pytorch/pytorch:latest
 
 ENV PYTHONUNBUFFERED=1
 
