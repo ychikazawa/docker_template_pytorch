@@ -20,8 +20,6 @@ graphviz = "*"
 jupyter = "*"
 tqdm = "*"
 joblib = "*"
-torch = "*"
-torchvision = "*"
 torch-encoding = "*"
 
 [requires]
