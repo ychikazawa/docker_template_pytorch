@@ -8,11 +8,25 @@ pylint = "*"
 flake8 = "*"
 
 [packages]
+scipy = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+japanize-matplotlib = "*"
+opencv-python = "*"
+seaborn = "*"
+pydot = "*"
+graphviz = "*"
 jupyter = "*"
+tqdm = "*"
+joblib = "*"
+torch = "*"
+torchvision = "*"
+torch-encoding = "*"
 
 [requires]
 python_version = "3.7"
 
 [scripts]
-pylint = "pylint source/ --disable='C0103,C0111,C0301,R0201,R0903,E0401,E0611'"
+pylint = "pylint source/ --disable='C0103,C0111,C0301,W0105'"
 flake = "flake8 --show-source source/ --ignore='E501'"
